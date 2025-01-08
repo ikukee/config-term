@@ -6,12 +6,12 @@ return {
     lualine.setup({
       options = {
         theme = 'palenight',
-        section_separators = '', -- {left='', right=''},
+        section_separators = {left='', right=''},
         component_separators = ''
       },
       sections = {
         lualine_a = {
-          { 'mode', right_padding = 2 },
+          { 'mode' },
         },
         lualine_b = {
           {"location"},
@@ -25,7 +25,7 @@ return {
         lualine_x = {},
         lualine_y = {
           { "fileformat" },
-          { "hostname", right_padding = 2 },
+          { "hostname" },
         },
         lualine_z = {{ 'datetime', style='%p %I:%M' }},
 

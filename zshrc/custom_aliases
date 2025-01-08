@@ -1,0 +1,15 @@
+# dev alias
+alias v=nvim
+alias ls=eza
+alias h=helm
+alias k=kubectl
+alias c=clear
+alias lz=lazygit
+alias g=git
+
+
+# link
+alias t2="cd ~/Documents/Projects/tindahang-tapat-7/"
+alias sbox="cd ~/Documents/Projects/sandbox"
+alias cdconf="cd ~/.config"
+alias vconf="nvim ~/.config"

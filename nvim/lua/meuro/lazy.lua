@@ -35,3 +35,17 @@ vim.filetype.add({
 })
 
 vim.cmd.colorscheme("tokyonight-night")
+vim.cmd [[hi! Normal ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! LineNr ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! Folded ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! NonText ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! SpecialKey ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! SignColumn ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! VertSplit ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! EndOfBuffer ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! TablineFill ctermbg=NONE guibg=NONE]]
+vim.cmd [[hi! Pmenu ctermbg=NONE ctermfg=NONE guibg=NONE]]
+vim.cmd [[hi! FloatBorder ctermbg=NONE ctermfg=NONE guibg=NONE]]
+vim.cmd [[hi! NormalFloat ctermbg=NONE ctermfg=NONE guibg=NONE]]
+vim.cmd [[hi! TabLine ctermbg=None ctermfg=None guibg=None]]
+vim.cmd [[hi! NormalNC ctermbg=None ctermfg=None guibg=None]]

@@ -6,7 +6,7 @@ return {
     lualine.setup({
       options = {
         theme = 'palenight',
-        section_separators = {left='', right=''},
+        section_separators = {left='', right=' '},
         component_separators = ''
       },
       sections = {
@@ -27,7 +27,7 @@ return {
           { "fileformat" },
           { "hostname" },
         },
-        lualine_z = {{ 'datetime', style='%p %I:%M' }},
+        lualine_z = {{ 'datetime', style='󰅐 %p %I:%M' }},
 
       },
       inactive_sections = {

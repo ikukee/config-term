@@ -15,3 +15,4 @@ alias cdconf="cd ~/.config"
 alias vconf="nvim ~/.config"
 alias ciglobals="cd ~/Documents/Projects/cicd/globals/templates/"
 alias citagging="cd ~/Documents/Projects/cicd/tagging/templates/"
+# bind

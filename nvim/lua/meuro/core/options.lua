@@ -11,7 +11,7 @@ opt.autoindent = true
 
 opt.guicursor = "n-v-c-sm:block50,i-ci-ve:ver50,r-cr-o:ver50"
 opt.wrap = true
-
+opt.termguicolors=true
 opt.ignorecase = true
 opt.smartcase = true
 

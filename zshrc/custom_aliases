@@ -13,6 +13,7 @@ alias t2="cd ~/Documents/Projects/tindahang-tapat-7/"
 alias sbox="cd ~/Documents/Projects/sandbox"
 alias cdconf="cd ~/.config"
 alias vconf="nvim ~/.config"
+alias cicd="cd ~/Documents/Projects/cicd/"
 alias ciglobals="cd ~/Documents/Projects/cicd/globals/templates/"
 alias citagging="cd ~/Documents/Projects/cicd/tagging/templates/"
 # bind

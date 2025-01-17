@@ -1,0 +1,1 @@
+brew install fftw libtool automake pkgconf portaudio iniparser

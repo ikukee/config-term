@@ -28,3 +28,4 @@ opt.splitbelow = true
 
 vim.cmd [[nnoremap k kzz]]
 vim.cmd [[nnoremap j jzz]]
+

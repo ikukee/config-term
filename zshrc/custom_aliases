@@ -17,4 +17,7 @@ alias cicd="cd ~/Documents/Projects/cicd/"
 alias ciglobals="cd ~/Documents/Projects/cicd/globals/templates/"
 alias citagging="cd ~/Documents/Projects/cicd/tagging/templates/"
 alias ncharts="cd ~/Documents/Projects/helm-charts/"
+alias external="cd ~/Documents/Projects/external_testing/"
+alias projects="cd ~/Documents/Projects"
+
 # bind

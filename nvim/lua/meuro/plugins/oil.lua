@@ -22,8 +22,19 @@ return {
     delete_to_trash = true,
     skip_confirm_for_simple_edits = false,
     prompt_save_on_select_new_entry = true,
+    use_default_keymaps = false,
     keymaps = {
+      ["g?"] = { "actions.show_help", mode = "n" },
+      ["<CR>"] = "actions.select",
       ["<Esc>"] = { callback = "actions.close", mode = "n" },
+      ["-"] = { "actions.parent", mode = "n" },
+      ["_"] = { "actions.open_cwd", mode = "n" },
+      ["`"] = { "actions.cd", mode = "n" },
+      ["~"] = { "actions.cd", opts = { scope = "tab" }, mode = "n" },
+      ["gs"] = { "actions.change_sort", mode = "n" },
+      ["g."] = { "actions.toggle_hidden", mode = "n" },
+      ["<C-p>"] = "actions.preview",
+      ["gx"] = "actions.open_external",
     },
     preview_win = {
       -- Whether the preview window is automatically updated when the cursor is moved

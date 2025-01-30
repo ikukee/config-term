@@ -3,17 +3,22 @@ return {
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
     local lualine = require("lualine")
+    local custom_theme = require'lualine.themes.palenight'
+    custom_theme.normal.c.bg = "none"
+    custom_theme.normal.b.bg = "none"
+    custom_theme.visual.b.bg = "none"
+    custom_theme.insert.b.bg = "none"
     lualine.setup({
       options = {
-        theme = 'palenight',
-        section_separators = '',
-        component_separators = ''
+        theme = custom_theme,--'palenight',
+        section_separators = '', --{ left = '', right = '' },
+        component_separators = '', --    
+        fmt = string.lower,
       },
       sections = {
         lualine_a = {},
         lualine_b = {
-          {"mode"},
-          {"location"},
+          { 'mode', fmt = function(str) return str:sub(1,1) end },
           {"diagnostics"},
         },
         lualine_c = {
@@ -23,8 +28,6 @@ return {
         },
         lualine_x = {},
         lualine_y = {
-          { "fileformat" },
-          { "hostname" },
         },
         lualine_z = {},
 

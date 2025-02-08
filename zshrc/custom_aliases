@@ -4,7 +4,8 @@ alias ls=eza
 alias h=helm
 alias k=kubectl
 alias c=clear
-alias lz=lazygit
+alias lzg=lazygit
+alias lzd=lazydocker
 alias g=git
 
 
@@ -19,5 +20,4 @@ alias citagging="cd ~/Documents/Projects/cicd/tagging/templates/"
 alias ncharts="cd ~/Documents/Projects/helm-charts/"
 alias external="cd ~/Documents/Projects/external_testing/"
 alias projects="cd ~/Documents/Projects"
-
 # bind

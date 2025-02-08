@@ -22,7 +22,6 @@ return {
           {"diagnostics"},
         },
         lualine_c = {
-          '%=',
           {'filename'},
           {'branch'},
         },

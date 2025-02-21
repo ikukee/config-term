@@ -20,11 +20,14 @@ opt.fillchars="eob: "
 opt.signcolumn = "yes"
 
 opt.backspace = "indent,eol,start"
-
+opt.showmode = false
 opt.clipboard = "unnamedplus"
 
 opt.splitright = true
 opt.splitbelow = true
+
+opt.undofile = true
+opt.undolevels = 50
 
 vim.cmd [[nnoremap k kzz]]
 vim.cmd [[nnoremap j jzz]]

@@ -11,3 +11,5 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 -- explorer
 keymap.set("n", "<leader>ee", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 keymap.set("n", "<leader>ef", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
+
+

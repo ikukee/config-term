@@ -20,4 +20,5 @@ alias citagging="cd ~/Documents/Projects/cicd/tagging/templates/"
 alias ncharts="cd ~/Documents/Projects/helm-charts/"
 alias external="cd ~/Documents/Projects/external_testing/"
 alias projects="cd ~/Documents/Projects"
+alias reports="cd ~/Documents/Reports"
 # bind

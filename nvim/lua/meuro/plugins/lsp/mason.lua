@@ -27,15 +27,21 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
-        'ts_ls',
-        'ruby_lsp',
-        'yamlls'
+        "html",
+        "lua_ls",
+        "prettierd",
+        "ruby_lsp",
+        "ruby_lsp",
+        "sqlls",
+        "stylua",
+        "ts_ls",
+        "yamlls",
       },
+      automatic_installation = {},
     })
 
     mason_tool_installer.setup({
-      ensure_installed = {
-      },
+      ensure_installed = {},
     })
   end,
 }

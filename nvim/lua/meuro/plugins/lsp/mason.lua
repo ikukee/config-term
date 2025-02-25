@@ -29,11 +29,8 @@ return {
       ensure_installed = {
         "html",
         "lua_ls",
-        "prettierd",
-        "ruby_lsp",
         "ruby_lsp",
         "sqlls",
-        "stylua",
         "ts_ls",
         "yamlls",
       },

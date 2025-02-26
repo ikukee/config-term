@@ -1,6 +1,6 @@
 # dev alias
 alias v=nvim
-alias ls=eza
+alias ls=eza -a --icons=always
 alias h=helm
 alias k=kubectl
 alias c=clear

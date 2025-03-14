@@ -27,6 +27,7 @@ opt.splitbelow = true
 
 opt.undofile = true
 opt.undolevels = 50
+opt.laststatus = 3
 
 -- vim.diagnostic.config {
 --   virtual_text = false,

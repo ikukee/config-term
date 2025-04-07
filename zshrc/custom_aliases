@@ -7,7 +7,8 @@ alias c=clear
 alias lzg=lazygit
 alias lzd=lazydocker
 alias g=git
-
+alias fcd="cd ./\$(find . -type d | fzf --tmux --height 40% --border --reverse)"
+alias fgit="git checkout \$(git branch | fzf --height 40% --border --reverse)"
 
 # link
 alias t2="cd ~/Documents/Projects/tindahang-tapat-7/"

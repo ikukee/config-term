@@ -11,6 +11,7 @@ return {
 
     -- configure treesitter
     treesitter.setup({ -- enable syntax highlighting
+      modules = {},
       highlight = {
         enable = true,
         additional_vim_regex_highlighting = false,
@@ -44,7 +45,7 @@ return {
         "c",
         "ruby",
         "helm",
-        "gotmpl"
+        "gotmpl",
       },
       incremental_selection = {
         enable = true,

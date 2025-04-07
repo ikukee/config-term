@@ -13,13 +13,11 @@ keymap.set("n", "<leader>sx", "<CMD>close<CR>", { desc = "Close split" }) -- clo
 -- explorer
 keymap.set("n", "<leader>ee", "<CMD>Explore<CR>", { desc = "Open Explorer" })
 keymap.set("n", "gb", "<C-o>", { desc = "go back" })
-keymap.set("n", "sp", '"0p', { desc = "smart paste" })
 keymap.set("n", "k", "kzz", { desc = "up" })
 keymap.set("n", "j", "jzz", { desc = "down" })
 keymap.set("n", "<C-d>", "<C-d>zz", { desc = "up" })
 keymap.set("n", "<C-u>", "<C-u>zz", { desc = "down" })
 -- Vision
-keymap.set("v", "sp", '"0p', { desc = "smart paste" })
 keymap.set("v", "k", "kzz", { desc = "up" })
 keymap.set("v", "j", "jzz", { desc = "down" })
 keymap.set("v", "<C-d>", "<C-d>zz", { desc = "up" })

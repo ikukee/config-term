@@ -15,7 +15,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.cursorline = true
-opt.fillchars = "eob: "
+-- opt.fillchars = "eob: "
 opt.signcolumn = "yes"
 
 opt.backspace = "indent,eol,start"

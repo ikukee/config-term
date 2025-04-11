@@ -1,7 +1,7 @@
 local opt = vim.opt
 opt.relativenumber = true
 opt.number = true
-
+--require("vim.lsp.health.")
 -- tabs & indents
 opt.tabstop = 2
 opt.shiftwidth = 2
@@ -15,7 +15,7 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.cursorline = true
--- opt.fillchars = "eob: "
+opt.fillchars = "eob: "
 opt.signcolumn = "yes"
 
 opt.backspace = "indent,eol,start"

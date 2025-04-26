@@ -7,11 +7,14 @@ alias c=clear
 alias lzg=lazygit
 alias lzd=lazydocker
 alias g=git
-alias cicd="cd ~/Documents/Projects/cicd/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse) > /dev/tty"
-alias projects="cd ~/Documents/Projects/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse) > /dev/tty"
-alias cdconf="cd ~/.config/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse) > /dev/tty"
-alias ncharts="cd ~/Documents/Projects/helm-charts/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse) > /dev/tty"
+
+alias cicd="cd ~/Documents/Projects/cicd/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse)"
+alias projects="cd ~/Documents/Projects/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse)"
+alias cdconf="cd ~/.config/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse)"
+alias ncharts="cd ~/Documents/Projects/helm-charts/ && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse)"
+alias reports="cd ~/Documents/Reposts && cd ./\$(find . -type d -maxdepth 1 | fzf  --border --reverse)"
 # bind
-alias fcd="cd ./\$(find . -type d | fzf --tmux --border --reverse) > /dev/tty"
-alias fgit="git checkout \$(git branch | fzf --tmux --border --reverse) > /dev/tty"
-#alias ftmux="tmux list-sessions | sed -E 's/:.*$//' | grep -v \"^$(tmux display-message -p '#S')\$\" | fzf --border --tmux --reverse | xargs tmux switch-client -t > /dev/tty"
+# alias fcd="cd ./\$(find . -type d | fzf  --border --reverse)"
+alias fcd="cd ./\$(fd -t d | fzf  --border --reverse)"
+alias fvim="fd | fzf  --border --reverse | xargs nvim"
+alias fgit="git checkout \$(git branch | fzf  --border --reverse)"

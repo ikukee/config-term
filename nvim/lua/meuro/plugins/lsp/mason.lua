@@ -34,8 +34,6 @@ return {
         "ts_ls",
         "yamlls",
         "rubocop",
-        "solargraph",
-        "standardrb",
         "stimulus_ls",
       },
       automatic_installation = {},
